@@ -32,7 +32,7 @@ export default function AboutPage() {
       <Header />
 
       {/* Hero */}
-      <section className="relative bg-gradient-to-r from-primary via-orange-500 to-primary overflow-hidden">
+      <section className="relative bg-gradient-to-r from-primary via-[#1a3db8] to-primary overflow-hidden">
         <div className="absolute inset-0 opacity-20">
           <div className="absolute top-10 left-10 w-40 h-40 bg-accent rounded-full blur-3xl" />
           <div className="absolute bottom-10 right-10 w-48 h-48 bg-yellow-300 rounded-full blur-3xl" />
@@ -73,7 +73,7 @@ export default function AboutPage() {
                   className="relative w-3/4 h-3/4"
                 >
                   <Image
-                    src="/images/pineapple-jar-2.png"
+                    src="/cherry.PNG"
                     alt="G's Koolaid Pineapples"
                     fill
                     className="object-contain"

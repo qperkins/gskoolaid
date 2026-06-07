@@ -26,25 +26,25 @@ export interface Product {
 
 /** Maps each offered flavor to the best-matching asset in /public */
 export const flavorImages: Record<string, string> = {
-  Cherry: "/images/pineapple-jar-2.png",
-  "Tropical Punch": "/tropicalpunch.jpeg",
-  Grape: "/grape.jpeg",
-  "Lemon-Lime": "/lemonade.jpeg",
-  "Pink Lemonade": "/strawberrylemonade.jpeg",
-  "Blue Raspberry Lemonade": "/bluerasberry.jpeg",
-  Strawberry: "/strawberrylemonade.jpeg",
-  Watermelon: "/watermelon.jpeg",
+  Cherry: "/cherry.PNG",
+  "Tropical Punch": "/tropicalpunch.PNG",
+  Grape: "/grape.PNG",
+  "Lemon-Lime": "/images/pineapple-jar-1.png",
+  "Pink Lemonade": "/strawberrylemonade.PNG",
+  "Blue Raspberry Lemonade": "/blueraspberrylemonade.PNG",
+  Strawberry: "/strawberrylemonade.PNG",
+  Watermelon: "/watermelon.PNG",
   Orange: "/images/pineapple-jar-1.png",
-  "Black Cherry": "/blackcherry.jpeg",
-  "Berry Blue": "/bluerasberry.jpeg",
-  Mango: "/peachmango.jpeg",
-  Pineapple: "/images/pineapple-jar-1.png",
-  "Fruit Punch": "/tropicalpunch.jpeg",
-  "Green Apple": "/greenapple.jpeg",
-  "Peach Mango": "/peachmango.jpeg",
-  "Strawberry Kiwi": "/strawberrylemonade.jpeg",
-  "Mandarin Tangerine": "/lemonade.jpeg",
-  "Pina Pineapple": "/images/pineapple-jar-3.png",
+  "Black Cherry": "/blackcherry.PNG",
+  "Berry Blue": "/blueraspberrylemonade.PNG",
+  Mango: "/peachmango.PNG",
+  Pineapple: "/pinapineapple.PNG",
+  "Fruit Punch": "/tropicalpunch.PNG",
+  "Green Apple": "/greenapple.PNG",
+  "Peach Mango": "/peachmango.PNG",
+  "Strawberry Kiwi": "/strawberrykiwi.PNG",
+  "Mandarin Tangerine": "/images/pineapple-jar-1.png",
+  "Pina Pineapple": "/pinapineapple.PNG",
 }
 
 export const offeredFlavors = [
@@ -118,7 +118,7 @@ function createProduct(
 export const products: Product[] = [
   createProduct(1, "Cherry", {
     badge: "HOT",
-    badgeColor: "bg-orange-500",
+    badgeColor: "bg-primary",
     reviews: { rating: 4.9, count: 789 },
   }),
   createProduct(2, "Tropical Punch", {

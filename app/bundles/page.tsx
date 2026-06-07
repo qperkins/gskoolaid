@@ -36,7 +36,7 @@ const bundles: Bundle[] = [
     jars: 3,
     price: 54,
     originalPrice: 60,
-    image: "/images/pineapple-jar-1.png",
+    image: "/cherry.PNG",
     perks: ["3 jars of your choice", "Save $6", "Same-day delivery"],
     productIds: [1, 2, 13],
   },
@@ -50,7 +50,7 @@ const bundles: Bundle[] = [
     originalPrice: 120,
     badge: "BEST VALUE",
     badgeColor: "bg-primary",
-    image: "/images/pineapple-jar-2.png",
+    image: "/tropicalpunch.PNG",
     perks: ["6 jars of your choice", "Save $15", "Same-day delivery", "Free bonus flavor"],
     productIds: [1, 2, 5, 7, 12, 13],
   },
@@ -64,7 +64,7 @@ const bundles: Bundle[] = [
     originalPrice: 240,
     badge: "PARTY SIZE",
     badgeColor: "bg-purple-500",
-    image: "/images/pineapple-jar-3.png",
+    image: "/pinapineapple.PNG",
     perks: ["12 jars of your choice", "Save $40", "Same-day delivery", "Priority order", "Custom flavor mix"],
     productIds: [1, 2, 3, 4, 5, 6, 7, 9, 12, 13, 16, 19],
   },
@@ -186,7 +186,7 @@ export default function BundlesPage() {
       <Header />
 
       {/* Hero Banner */}
-      <section className="relative bg-gradient-to-r from-primary via-orange-500 to-primary overflow-hidden">
+      <section className="relative bg-gradient-to-r from-primary via-[#1a3db8] to-primary overflow-hidden">
         <div className="absolute inset-0 opacity-20">
           <div className="absolute top-10 left-10 w-40 h-40 bg-accent rounded-full blur-3xl" />
           <div className="absolute bottom-10 right-10 w-48 h-48 bg-yellow-300 rounded-full blur-3xl" />
