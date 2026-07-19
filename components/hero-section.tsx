@@ -135,14 +135,14 @@ export function HeroSection() {
             className="pointer-events-none absolute h-[70%] w-[80%] rounded-full bg-[radial-gradient(ellipse_at_center,rgba(255,150,50,0.25)_0%,rgba(255,50,100,0.15)_50%,transparent_80%)] blur-[60px]"
           />
 
-          <div className="relative z-10 w-full max-w-[680px] animate-hero-tag">
-            <div className="relative aspect-square w-full overflow-hidden rounded-3xl">
+          <div className="relative z-10 mx-auto w-full max-w-[680px]">
+            <div className="relative aspect-square w-full overflow-hidden rounded-3xl shadow-[0_20px_60px_rgba(0,0,0,0.5)] animate-hero-tag [transform:translateZ(0)]">
               <Image
                 src="/herowithbackground.PNG"
                 alt="G's Kool-Aid Pineapple Jars — Strawberry Lemonade, Lemon Lime, and Peach Mango"
                 fill
                 priority
-                className="object-cover drop-shadow-[0_20px_60px_rgba(0,0,0,0.5)]"
+                className="rounded-3xl object-cover"
                 sizes="(max-width: 1024px) 90vw, 680px"
               />
             </div>
